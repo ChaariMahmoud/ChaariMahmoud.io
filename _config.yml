@@ -1,5 +1,4 @@
 # The Site Configuration
-
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -9,33 +8,34 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://zones.arilyn.cc
-timezone:
+timezone: Europe/Paris
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Mahmoud Chaari # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
-
+tagline: "PhD Student — Formal Verification & WebAssembly , Sorbonne University & EPITA (LRDE/LRE) Paris, France"
+favicon: /assets/img/favicon.png
+logo: /assets/img/favicon.png
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+ "1st-year PhD student working on formal verification of WebAssembly programs and smart-contract execution environments through Boogie-based SMT verification pipelines. Sorbonne University & EPITA — LRDE/LRE."
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: 
+baseurl: 
 
 github:
-  username: github_username # change to your GitHub username
-
-twitter:
-  username: twitter_username # change to your Twitter username
+  username: ChaariMahmoud # change to your GitHub username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  email: "chaarimahmoud55@gmail.com"
+  emails_alt:
+    - "mahmoud.chaari@epita.fr"
+    - "Mahmoud.Chaari@etu.sorbonne-universite.fr"
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your Twitter homepage
@@ -43,6 +43,9 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+
+footer:
+  content: "© 2025 Mahmoud Chaari — Sorbonne University & EPITA"    
 
 # Site Verification Settings
 webmaster_verifications:
@@ -98,7 +101,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/Photo_de-profile.jpeg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
